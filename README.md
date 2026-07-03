@@ -10,10 +10,8 @@ Understanding</strong></h1>
 
 ## 🌟 Overview
 
-**SensorLLM** is a two-stage framework that aligns sensor time series with human-intuitive text, enabling LLMs to interpret complex numerical data and achieve SOTA human activity recognition across varying sensor types, counts, and sequence lengths.
-<div style="text-align: center;">
-    <img src="asset/sensorllm_model.png" alt="sensorllm_model" width=100% >
-</div>
+We propose a geometry-aware vision-language model for 3D scene understanding. Taking 3D point clouds and textual instructions as inputs, the proposed method adopts a two-stage training framework to achieve comprehensive modeling from scene-object perception to cross-modal semantic generation.
+
 
 ### 🔑 Key Features
 - Aligns sensor time-series with ***human-intuitive, annotation-free*** textual trend descriptions and summaries via a QA-based framework.
