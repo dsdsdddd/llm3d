@@ -1,28 +1,10 @@
 # llm3d
+<h1 align="center"><strong>A Geometry-Aware Vision-Language Model for 3D Scene
+Understanding</strong></h1>
 <h1 align="center">
   <strong>xxxxxx</strong>
    <img src="figure1.jpg" align="center" width="100%">
 </h1>
-<h1 align="center"><strong>A Geometry-Aware Vision-Language Model for 3D Scene
-Understanding</strong></h1>
-<h3 align="center">
-  EMNLP 2025 Main Conference
-</h3>
-  <p align="center">
-    <a href='https://scholar.google.com/citations?user=EVOzBF4AAAAJ&hl=en' target='_blank'>Zechen Li</a><sup>1</sup>&emsp;&emsp;
-    <a href='https://scholar.google.com/citations?user=250tnREAAAAJ&hl=en' target='_blank'>Shohreh Deldari</a><sup>1</sup>&emsp;&emsp;
-    <a href='https://openreview.net/profile?id=~Linyao_Chen1' target='_blank'>Linyao Chen</a><sup>2</sup>&emsp;&emsp;
-    <a href='https://scholar.google.com/citations?user=KwhLl7IAAAAJ&hl' target='_blank'>Hao Xue</a><sup>1</sup>&emsp;&emsp;
-    <a href='https://fsalim.github.io' target='_blank'>Flora D. Salim</a><sup>1</sup>
-    <br><br>
-    <sup>1</sup> University of New South Wales, Sydney<br/>
-    <sup>2</sup> University of Tokyo
-    <br><br>
-    <a href="https://arxiv.org/abs/2410.10624">
-        <img src="https://img.shields.io/badge/arXiv-2503.07259-b31b1b.svg" alt="arXiv">
-    </a>
-  </p>
-
 ## 📢 News
 - **05/2026:** Excited to release our latest work [**AnyMo**](https://baiyuchen.com/project/AnyMo), a comprehensive framework for wearable motion understanding, covering synthetic IMU generation, geometry-aware pre-training, motion-language alignment, data resources, and a new [benchmark](https://huggingface.co/datasets/CRUISEResearchGroup/AnyMo-Bench).
 
