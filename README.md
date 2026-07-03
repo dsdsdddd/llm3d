@@ -3,7 +3,8 @@
   <strong>xxxxxx</strong>
    <img src="figure1.jpg" align="center" width="100%">
 </h1>
-<h1 align="center"><strong>Aligning Large Language Models with Motion Sensors for Human Activity Recognition</strong></h1>
+<h1 align="center"><strong>A Geometry-Aware Vision-Language Model for 3D Scene
+Understanding</strong></h1>
 <h3 align="center">
   EMNLP 2025 Main Conference
 </h3>
