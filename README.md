@@ -5,12 +5,7 @@ Understanding</strong></h1>
   <strong></strong>
    <img src="figure1.jpg" align="center" width="100%">
 </h1>
-## 📢 News
-- **05/2026:** Excited to release our latest work [**AnyMo**](https://baiyuchen.com/project/AnyMo), a comprehensive framework for wearable motion understanding, covering synthetic IMU generation, geometry-aware pre-training, motion-language alignment, data resources, and a new [benchmark](https://huggingface.co/datasets/CRUISEResearchGroup/AnyMo-Bench).
 
-- **05/2026:** Excited to share [**ZARA**](https://arxiv.org/abs/2508.04038) — **Z**ero-training **A**ctivity **R**easoning **A**gents, a training-free, evidence-grounded LLM agent framework for motion time-series reasoning — accepted as an **ACL 2026 Oral** paper!
-
-- **04/2026:** Excited to share [**COMODO**](https://github.com/cruiseresearchgroup/COMODO), a framework for **Cross-Modal Video-to-IMU Distillation** for efficient egocentric human activity recognition, accepted to **IMWUT / UbiComp 2026**!
 
 
 ## 🌟 Overview
