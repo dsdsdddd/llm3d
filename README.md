@@ -2,7 +2,7 @@
 <h1 align="center"><strong>A Geometry-Aware Vision-Language Model for 3D Scene
 Understanding</strong></h1>
 <h1 align="center">
-  <strong>xxxxxx</strong>
+  <strong></strong>
    <img src="figure1.jpg" align="center" width="100%">
 </h1>
 ## 📢 News
