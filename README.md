@@ -1,6 +1,6 @@
 # llm3d
 <h1 align="center">
-  <img src="figure1.jpg" align="center" width="5%">
+  <img src="figure1.jpg" align="center" width="100%">
   <strong></strong>
 </h1>
 <h1 align="center"><strong>Aligning Large Language Models with Motion Sensors for Human Activity Recognition</strong></h1>
