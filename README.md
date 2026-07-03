@@ -44,9 +44,9 @@ Step 2. Prepare Language Annotations
 
 To train the model, you are required to prepare language annotations from ScanRefer, ScanQA.
 
-ScanRefer. Follow the commands [here]([https://github.com/ch3cook-fdu/Vote2Cap-DETR/tree/master/data/scannet](https://github.com/daveredrum/ScanRefer)) to download the ScanRefer dataset.
+ScanRefer. Follow the commands [here](https://github.com/daveredrum/ScanRefer)) to download the ScanRefer dataset.
 
-ScanQA. Follow the commands [here]([https://github.com/ch3cook-fdu/Vote2Cap-DETR/tree/master/data/scannet](https://github.com/ATR-DBI/ScanQA/blob/main/docs/dataset.md)) to download the ScanQA dataset.
+ScanQA. Follow the commands [here](https://github.com/ATR-DBI/ScanQA/blob/main/docs/dataset.md)) to download the ScanQA dataset.
 
 
 
