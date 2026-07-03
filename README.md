@@ -12,14 +12,23 @@ Understanding</strong></h1>
 
 We propose a geometry-aware vision-language model for 3D scene understanding. Taking 3D point clouds and textual instructions as inputs, the proposed method adopts a two-stage training framework to achieve comprehensive modeling from scene-object perception to cross-modal semantic generation.
 
-
-### 🔑 Key Features
-- Aligns sensor time-series with ***human-intuitive, annotation-free*** textual trend descriptions and summaries via a QA-based framework.
-- ***Sensor–Language Alignment Stage*** operates on single-channel, variable-length segments for fine-grained trend-text alignment.
-- ***Task-Aware Tuning Stage*** handles multi-channel, multi-sensor data for downstream human activity recognition (HAR).
+Environment Setup
+Install Dependencies
+Python 3.8.16 + CUDA 11.6
+Core packages: h5py scipy cython 'trimesh<2.35.40' 'networkx<2.3' 'torch=1.13.1+cu116' 'transformers>=4.37.0'
+Build extensions:
+cd third_party/pointnet2 && python setup.py install
+cd utils && python cython_compile.py build_ext --inplace
 
 ### 📂 Datasets
-The current implementation supports five HAR datasets: [`USC-HAD`](https://sipi.usc.edu/had/), [`UCI-HAR`](https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones), [`MHealth`](https://archive.ics.uci.edu/dataset/319/mhealth+dataset), [`Capture-24`](https://ora.ox.ac.uk/objects/uuid:99d7c092-d865-4a19-b096-cc16440cd001), and [`PAMAP2`](https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring).
+Our repo requires the 3D data from ScanNet, the natural language annotations, and the pre-trained LLM weights.
+
+Step 1. Download and Prepare the ScanNet 3D Data.
+1.Follow the instructions [here](https://github.com/ch3cook-fdu/Vote2Cap-DETR/tree/master/data/scannet) and download the ScanNetV2 dataset.
+2.Change the SCANNET_DIR to the scans folder in [here](https://github.com/ch3cook-fdu/Vote2Cap-DETR/blob/master/data/scannet/batch_load_scannet_data.py))., and run the following commands.
+cd data/scannet/
+python batch_load_scannet_data.py
+
 
 To apply SensorLLM to other datasets, please refer to the code and configuration examples provided for the supported datasets. In particular, you may need to modify the corresponding entries in [`ts_backbone.yaml`](./sensorllm/model/ts_backbone.yaml) and adapt the data loading logic in the [`./sensorllm/data`](./sensorllm/data) folder to match your dataset’s format.
 
