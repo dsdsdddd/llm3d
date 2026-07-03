@@ -1,8 +1,7 @@
 # llm3d
 <h1 align="center">
-  <img src="asset/logo_left.jpg" align="center" width="5%">
-  <strong>SensorLLM</strong>
-  <img src="asset/logo_right.png" align="center" width="5%">
+  <img src="figure1.jpg" align="center" width="5%">
+  <strong></strong>
 </h1>
 <h1 align="center"><strong>Aligning Large Language Models with Motion Sensors for Human Activity Recognition</strong></h1>
 <h3 align="center">
