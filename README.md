@@ -31,13 +31,23 @@ cd utils && python cython_compile.py build_ext --inplace
 Our repo requires the 3D data from ScanNet, the natural language annotations, and the pre-trained LLM weights.
 
 Step 1. Download and Prepare the ScanNet 3D Data.
+
 1.Follow the instructions [here](https://github.com/ch3cook-fdu/Vote2Cap-DETR/tree/master/data/scannet) and download the ScanNetV2 dataset.
+
 2.Change the SCANNET_DIR to the scans folder in [here](https://github.com/ch3cook-fdu/Vote2Cap-DETR/blob/master/data/scannet/batch_load_scannet_data.py))., and run the following commands.
+
 cd data/scannet/
+
 python batch_load_scannet_data.py
 
+Step 2. Prepare Language Annotations
 
-To apply SensorLLM to other datasets, please refer to the code and configuration examples provided for the supported datasets. In particular, you may need to modify the corresponding entries in [`ts_backbone.yaml`](./sensorllm/model/ts_backbone.yaml) and adapt the data loading logic in the [`./sensorllm/data`](./sensorllm/data) folder to match your dataset’s format.
+To train the model, you are required to prepare language annotations from ScanRefer, ScanQA.
+
+ScanRefer. Follow the commands [here]([https://github.com/ch3cook-fdu/Vote2Cap-DETR/tree/master/data/scannet](https://github.com/daveredrum/ScanRefer)) to download the ScanRefer dataset.
+
+ScanQA. Follow the commands [here]([https://github.com/ch3cook-fdu/Vote2Cap-DETR/tree/master/data/scannet](https://github.com/ATR-DBI/ScanQA/blob/main/docs/dataset.md)) to download the ScanQA dataset.
+
 
 
 ## 🚀 Getting started
