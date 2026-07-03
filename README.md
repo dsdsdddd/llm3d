@@ -53,22 +53,16 @@ Download opt-1.3b from HuggingFace to ./facebook/opt-1.3b (include config.json, 
 
 ## 🚀 Getting started
 
-```
+Training Commands
 
-## 📄 License
+the first stage
 
+bash scripts/train_stage1_detector.sh
 
-This work is licensed under the 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)
-</a>.  
-The source code is released under the 
-[MIT License](https://opensource.org/licenses/MIT).  
+the second stage
 
-Please refer to the official repositories of any baseline methods included in this project for their respective license terms.
+bash/scripts/opt-1.3b/tuning.scanqa.sh
 
-## 📩 Contact
+Evaluation Commands
 
-If you have any questions or suggestions, feel free to contact Zechen at `zechen.li(at)unsw(dot)edu(dot)au`.
-
-<img align="right" height="100px" src="asset/unsw_logo.png">
+bash scripts/opt-1.3b/eval.scanqa.sh
